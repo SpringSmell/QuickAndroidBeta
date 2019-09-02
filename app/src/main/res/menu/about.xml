@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_brightness_7_black_24dp"
+            android:title="关于"
+            app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/loading"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="加载"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_brightness_7_black_24dp"
+            android:title="帮助"
+            app:showAsAction="never" />
+
+    <item
+            android:id="@+id/cancel"
+            android:icon="@drawable/ic_brightness_7_black_24dp"
+            android:title="取消"
+            app:showAsAction="never" />
+
+</menu>

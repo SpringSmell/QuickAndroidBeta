@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/cancelTv"
+            style="@style/BodyTextStyle"
+            android:layout_height="0dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:paddingStart="@dimen/borderWidth"
+            android:paddingEnd="@dimen/borderWidth"
+            android:text="@string/cancel"
+            android:textColor="@color/gray"
+            app:layout_constraintBottom_toBottomOf="@id/titleTv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@id/titleTv" />
+
+    <TextView
+            android:id="@+id/titleTv"
+            style="@style/TitleTextStyleAllParams"
+            android:layout_height="@dimen/itemHeight"
+            android:text="请选择时间"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+            android:id="@+id/confirmTv"
+            style="@style/BodyTextStyle"
+            android:layout_height="0dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:paddingStart="@dimen/borderWidth"
+            android:paddingEnd="@dimen/borderWidth"
+            android:text="选择"
+            app:layout_constraintBottom_toBottomOf="@id/titleTv"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/titleTv" />
+
+    <org.quick.core.widgets.RollView
+            android:id="@+id/contentRv"
+            android:layout_width="0dp"
+            android:layout_height="170dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

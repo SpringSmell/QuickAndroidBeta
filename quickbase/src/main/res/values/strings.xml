@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QuickBase</string>
+    <string name="fingerprintHint">按下指纹解锁</string>
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="actionBarSize">55dp</dimen>
+    <dimen name="itemSize">80dp</dimen>
+    <!--标题大小-->
+    <dimen name="textTitleSizeBold">20sp</dimen>
+    <dimen name="textTitleSize">18sp</dimen>
+    <dimen name="textTitleSizeSmall">16sp</dimen>
+    <!--正文大小-->
+    <dimen name="textBodySizeBold">15sp</dimen>
+    <dimen name="textBodySize">13sp</dimen>
+    <dimen name="textBodySizeSmall">12sp</dimen>
+    <!--标签大小-->
+    <dimen name="textTagSizeBold">11sp</dimen>
+    <dimen name="textTagSize">10sp</dimen>
+    <dimen name="textTagSizeSmall">8sp</dimen>
+
+    <dimen name="marginLeft">10dp</dimen>
+    <dimen name="marginRight">10dp</dimen>
+    <dimen name="marginSpacing">5dp</dimen>
+    <dimen name="marginSpacingSmall">1dp</dimen>
+
+    <dimen name="dotSize">2dp</dimen>
+    <dimen name="dotSizePadding">2dp</dimen>
+
+    <!--常规列表项高度-->
+    <dimen name="itemHeight">50dp</dimen>
+    <dimen name="itemHeightBold">70dp</dimen>
+    <!--常规列表项高度-->
+    <dimen name="itemHeightSmall">40dp</dimen>
+    <dimen name="itemHeightSmallSupper">30dp</dimen>
+    <!--常规列表项文本标题大小-->
+    <dimen name="itemTxtSize">14dp</dimen>
+    <!--相对屏幕两边的距离-->
+    <dimen name="borderWidthLittle">10dp</dimen>
+    <!--与屏幕两边的距离-->
+    <dimen name="borderWidth">20dp</dimen>
+    <!--与屏幕两边的距离-更大-->
+    <dimen name="borderWidthBig">30dp</dimen>
+    <!--与屏幕两边的距离-更小-->
+    <dimen name="borderWidthSmell">10dp</dimen>
+
+    <dimen name="cardViewRadius">5dp</dimen>
+    <dimen name="cardViewElevation">5dp</dimen>
+    <dimen name="cardViewContentPadding">10dp</dimen>
+
+    <dimen name="withdrawDepositTitle">24px</dimen>
+    <dimen name="btnHeight">40dp</dimen>
+
+    <dimen name="itemLineBold">15dp</dimen>
+
+</resources>

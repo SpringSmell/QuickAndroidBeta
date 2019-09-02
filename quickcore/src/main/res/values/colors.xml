@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主题色-->
+    <!--<color name="primaryDark">#008FD7</color>-->
+    <color name="colorPrimaryRed">#f33030</color>
+    <color name="colorAccent">#f33030</color>
+    <color name="colorPrimary">#00A2E9</color>
+    <color name="colorPrimaryDark">#0388CA</color>
+
+    <color name="colorBg">#fff</color>
+
+    <color name="colorBgDark">#f0eff4</color>
+    <color name="colorBgDarkDark">#f1f1f1</color>
+    <color name="colorContentBg">#f5f5f5</color>
+
+    <!-- 下拉刷新变换颜色 -->
+    <color name="colorHoloBlueBright">#00DDFF</color>
+    <color name="colorHoloGreenLight">#99CC00</color>
+    <color name="colorHoloOrangeLight">#FFBB33</color>
+    <color name="colorHoloRedLight">#FF4444</color>
+    <color name="colorRead">#ad0d0c</color>
+
+
+    <color name="lineItem">#1a1a1a</color>
+    <color name="line">#dddddd</color>
+
+    <color name="blueShallow50">#00a2e9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteDark">#F2F2F2</color>
+    <color name="white50">#50FFFFFF</color>
+    <color name="white80">#80FFFFFF</color>
+    <color name="white30">#30FFFFFF</color>
+    <color name="colorSystemGreen">#01978a</color>
+    <color name="colorTitle">#008FD7</color>
+    <color name="colorContent">#008FD7</color>
+    <color name="black">#000000</color>
+    <color name="blackShallow">#282828</color>
+    <color name="black90">#98000000</color>
+    <color name="black80">#80000000</color>
+    <color name="black70">#70000000</color>
+    <color name="black60">#60000000</color>
+    <color name="black50">#50000000</color>
+    <color name="black40">#40000000</color>
+    <color name="black30">#30000000</color>
+    <color name="black0b">#0b0b0b</color>
+    <color name="black0a">#0a0a0a</color>
+    <color name="gray">#828282</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue50">#500000FF</color>
+    <color name="grayDark">#4b4b4b</color>
+    <color name="grayDarkDark">#313131</color>
+    <color name="blueDark">#008FD7</color>
+    <color name="blueShallow">#00A2E9</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

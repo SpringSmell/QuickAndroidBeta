@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".ui.ExBroadcastActivity">
+
+    <TextView
+            android:id="@+id/sendTv"
+            style="@style/TitleTextStyleAllParams"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemHeight"
+            android:gravity="center"
+            android:text="发送"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    <TextView
+            android:id="@+id/sendMoreTv"
+            style="@style/TitleTextStyleAllParams"
+            android:layout_height="@dimen/itemHeight"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="发送到多个页面"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+</LinearLayout>

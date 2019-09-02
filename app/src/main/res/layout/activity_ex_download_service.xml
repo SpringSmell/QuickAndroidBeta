@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <TextView
+            style="@style/TitleTextStyleAllParams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载地址：https://dldir1.qq.com/weixin/android/weixin673android1360.apk" />
+
+    <TextView
+            android:id="@+id/actionTv"
+            style="@style/TitleTextStyleAllParams"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemHeight"
+            android:text="开始下载微信" />
+</LinearLayout>

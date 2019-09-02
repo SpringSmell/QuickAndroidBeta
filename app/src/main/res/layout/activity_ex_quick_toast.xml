@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".ui.ExQuickToastActivity">
+
+    <TextView
+            android:id="@+id/actionTv"
+            style="@style/TitleTextStyleAllParams"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemHeight"
+            android:text="弹出Toast" />
+
+    <TextView
+            android:id="@+id/actionAsyncTv"
+            style="@style/TitleTextStyleAllParams"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemHeight"
+            android:text="子线程弹出Toast" />
+</LinearLayout>

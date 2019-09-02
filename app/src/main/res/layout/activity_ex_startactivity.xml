@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".ui.ExQuickStartActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:text="启动示例，以观察者的方式" />
+
+    <TextView
+            android:id="@+id/actionTv"
+            style="@style/TitleTextStyleAllParams"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/itemHeight"
+            android:text="跳转Activity" />
+</LinearLayout>
